@@ -15,7 +15,7 @@ Actualy we have datas from :
 Need probe for :  
 - Bouygues  
   
-Result can be found here : https://github.com/diagmate/check_domains_data   
+Result can be found here : https://github.com/diagmate/check_domains/releases  
 
 # Install
 
@@ -184,11 +184,12 @@ python3 csv_add_tags.py
 
 # Stats of domains_data_tags.csv
 
-Data can be found here : https://github.com/diagmate/check_domains_data   
+Data can be found here : https://github.com/diagmate/check_domains/releases  
 2023-06-16  
 
-`status` : NULL, same_ip or diff_ip
-`tags` : localhost, dead, anomaly, NoAnswer, authority_us, authority_fr, cloudflare, google
+`status` : NULL, same_ip or diff_ip  
+`tags` : localhost, dead, anomaly, NoAnswer, authority_us, authority_fr, cloudflare, google  
+See [csv_add_tags.py](https://github.com/diagmate/check_domains/blob/main/csv_add_tags.py) for the tag affectation  
 
 ```
 $ grep same_ip domains_data_tags.csv|wc -l
