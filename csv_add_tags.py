@@ -122,8 +122,8 @@ with open('domains_data.csv', 'r') as reader:
 			if fdn=='NoAnswer' and adguard=='NoAnswer' and orange=='NoAnswer' and sfr=='NoAnswer' and free=='NoAnswer':
 				if 'dead' not in tags:
 					tags.append('dead')
-				else:
-					tags.append('anomaly')
+			else:
+				tags.append('anomaly')
 
 		for p in [fdn, adguard, orange, sfr, free]:
 			tags = is_cloudflare(p, tags)
