@@ -201,7 +201,7 @@ $ grep localhost domains_data_tags.csv|wc -l
 $ grep dead domains_data_tags.csv|wc -l
 1112333
 $ grep anomaly domains_data_tags.csv|wc -l
-2642
+119451
 $ grep NoAnswer domains_data_tags.csv|wc -l
 1224020
 $ grep authority_fr domains_data_tags.csv|wc -l
